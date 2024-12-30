@@ -64,7 +64,7 @@ export const ProductDetails = () => {
           </div>
           <div className="d-flex my-4">
             <button className='btn btn-lg btn-dark me-4' onClick={()=>addToProduct(product)}><i className="bi bi-bag pe-2" ></i>Add to cart</button>
-            <button className='btn btn-lg btn-dark' onClick={()=>navigate('/cart')}>Go cart</button>
+            <button className='btn btn-lg btn-dark' onClick={()=>navigate('../cart')}>Go cart</button>
           </div>
           
         </div>

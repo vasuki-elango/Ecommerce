@@ -21,7 +21,7 @@ export const Header = () => {
         <Link to={'/Ecommerce/products'} className="nav-link">Products</Link>
         </li>
       </ul>
-      <button className='bi bi-cart btn btn-outline-light' onClick={()=>navigiate('./cart')}> {state.length===0?"":state.length}</button>
+      <button className='bi bi-cart btn btn-outline-light' onClick={()=>navigiate('/Ecommerce/cart')}> {state.length===0?"":state.length}</button>
     </div>
   </div>
 </nav>

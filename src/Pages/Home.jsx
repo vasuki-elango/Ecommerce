@@ -55,7 +55,7 @@ export const Home = () => {
           <div className='row row-cols-lg-3 row-cols-md-2 row-cols-1'>
             {
               categories.map((item) => {
-                return <div className='col' key={item.id} onClick={()=>navigate('./ecommerce/products')}>
+                return <div className='col' key={item.id} onClick={()=>navigate('./products')}>
                 <div className="card h-75">
                 <img src={item.img} alt="" className='card-img-top object-fit-cover h-100 cate-img' />
                 </div>
