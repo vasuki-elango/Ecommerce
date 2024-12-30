@@ -39,7 +39,7 @@ export const Home = () => {
                 <div className="info-container">
                   <h1 className='title'>{items.title}</h1>
                   <p className="desc">{items.desc}</p>
-                  <button className='button' onClick={()=>navigate('./ecommerce/products')}>Shop Now</button>
+                  <button className='button' onClick={()=>navigate('./products')}>Shop Now</button>
                 </div>
               </div>
             })

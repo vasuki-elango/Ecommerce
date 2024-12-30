@@ -15,10 +15,10 @@ export const Header = () => {
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <Link to={'/ecommerce'} className="nav-link">Home</Link>
+          <Link to={'/Ecommerce'} className="nav-link">Home</Link>
         </li>
         <li class="nav-item">
-        <Link to={'/ecommerce/products'} className="nav-link">Products</Link>
+        <Link to={'/Ecommerce/products'} className="nav-link">Products</Link>
         </li>
       </ul>
       <button className='bi bi-cart btn btn-outline-light' onClick={()=>navigiate('./cart')}> {state.length===0?"":state.length}</button>

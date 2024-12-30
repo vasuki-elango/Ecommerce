@@ -7,7 +7,7 @@ export const SimpleCard = ({item}) => {
 
   return (
     <div className='col'>
-        <div className="card card-cat" onClick={()=>navigate('./ecommerce/products')}>
+        <div className="card card-cat" onClick={()=>navigate('./products')}>
         <img src={item.img} alt="" className='card-img-top object-fit-cover h-75' />
         <div className="card-body text-center">
           <h5 className='card-title'>{item.title}</h5>

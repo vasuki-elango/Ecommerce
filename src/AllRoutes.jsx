@@ -13,7 +13,7 @@ export const AllRoutes = () => {
   // const addToCart
   return (
     <Routes>
-      <Route path='/ecommerce'>
+      <Route path='/Ecommerce'>
         <Route path='' element={<Home/>}/>
         <Route path='products' element={<Product/>}/>
         <Route path='product/:id' element={<ProductDetails/>} />
