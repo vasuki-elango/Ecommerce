@@ -15,7 +15,7 @@ export const Header = () => {
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <Link to={'/'} className="nav-link">Home</Link>
+          <Link to={'/ecommerce'} className="nav-link">Home</Link>
         </li>
         <li class="nav-item">
         <Link to={'/ecommerce/products'} className="nav-link">Products</Link>
